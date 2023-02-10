@@ -5,6 +5,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    margin: auto;
     width: 600px;
 }
 
@@ -19,9 +20,14 @@ body {
     
 }
 
+.container .background label {
+    color: white;
+    margin: 0 20px; 
+}
+
 .container .background form input {
     width: 250px;
-    margin: 20px;
+    margin: 10px 20px;
 }
 
 .container .background form input[type="text"] {
