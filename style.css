@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 600px;
+    width: 900px;
 }
 
 .displayflex .container .left {
@@ -19,11 +19,11 @@
     align-items: center;
     background: linear-gradient(135deg, #7f279c, #2e279d 100%);
     
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 450px;
 }
 
-.displayflex .container .left form {
+.displayflex .container .left form {    
     margin: 20px;
 }
 
@@ -37,9 +37,10 @@
     background: transparent;
     border: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.199);
-    margin: 10px;
+    margin: 15px;
     padding: 6px;
     outline: none;
+    width: 250px;
 }
 
 .displayflex .container .left form input::placeholder {
@@ -50,8 +51,9 @@
     background: transparent;
     border: transparent;
     border-bottom: 1px solid rgba(255, 255, 255, 0.199);
-    margin: 10px;
+    margin: 20px;
     outline: none;
+    width: 250px;
 }
 
 .displayflex .container .left form textarea::placeholder {
@@ -64,7 +66,7 @@
     border-radius: 6px;
     color: white;
     font-size: 12px;
-    margin-left: 10px;
+    margin-left: 20px;
     padding: 9px;
     width: 120px;
 }
@@ -83,7 +85,7 @@
     font-weight: bolder;
 }
 
-.displayflex .container img {
+.displayflex .right img {
     border-radius: 80%;
     height: 300px;
     width: 250px;
