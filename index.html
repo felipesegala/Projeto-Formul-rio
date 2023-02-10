@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="style.css">
     <title>Formulário</title>
 </head>
-<body>
+<body class="displayflex">
     <main class="container">
-        <div class="background">
+        <div class="left">
             <form>
-                <label for="name">Name</label>
-                <input type="text" name="" id="name">
+                <h1 class="lefttittle">Send us a message</h1>
 
-                <label for="email">Email</label>
-                <input type="email" name="" id="email">
+                <input type="text" name="" id="name" placeholder="Name">
+                <input type="email" name="" id="email" placeholder="Email">
+                <input type="text" name="" id="tel" placeholder="Phone">
+                <textarea name="" id="" cols="25" rows="5" placeholder="Messege"></textarea><br>
 
-                <label for="tel">Phone</label>
-                <input type="text" name="" id="tel">
-                
-                <textarea name="" id="" cols="30" rows="10" placeholder="Deixe sua opinião!"></textarea>
+                <button type="submit">Send message</button>
             </form>
-            <button type="submit">Enviar</button>
-        </div>    
+        </div> 
+        <div class="right">
+            <figure>
+                <img src="Ted.jpg" alt="Cachorro Ted">
+            </figure>
+        </div>   
     </main>
 </body>
 </html>

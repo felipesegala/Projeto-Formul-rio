@@ -1,50 +1,90 @@
-body {
-    font-family: Arial, Helvetica, sans-serif;
+.displayflex{
+    align-items: center;
+    color:white;
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
 }
 
-.container {
+.displayflex .container {
     display: flex;
-    flex-direction: column;
-    margin: auto;
+    justify-content: center;
+    align-items: center;
     width: 600px;
 }
 
-.container .background {
-    background: linear-gradient(135deg, #7f279c, #2e279d 100%);
-    padding: 15px;
-    height: 400px;
-    width: 300px;
-}
-
-.container .background form {
-    
-}
-
-.container .background label {
-    color: white;
-    margin: 0 20px; 
-}
-
-.container .background form input {
-    width: 250px;
-    margin: 10px 20px;
-}
-
-.container .background form input[type="text"] {
-    
-}
-
-.container .background form input[type="email"]{
-
-}
-
-.container .background form textarea {
-    margin: 10px 30px;
-}
-
-button {
+.displayflex .container .left {
+    display: flex;
     justify-content: center;
-    height: 20px;
-    margin: 10px 50px;
-    width: 200px;
+    align-items: center;
+    background: linear-gradient(135deg, #7f279c, #2e279d 100%);
+    
+    width: 300px;
+    height: 400px;
+}
+
+.displayflex .container .left form {
+    margin: 20px;
+}
+
+.displayflex .container .left .lefttittle {
+    font-size: 16px;
+    margin: 10px;
+}
+
+
+.displayflex .container .left form input {
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+    margin: 10px;
+    padding: 6px;
+    outline: none;
+}
+
+.displayflex .container .left form input::placeholder {
+    color: rgba(255, 255, 255, 0.573);
+}
+
+.displayflex .container .left form textarea {
+    background: transparent;
+    border: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.199);
+    margin: 10px;
+    outline: none;
+}
+
+.displayflex .container .left form textarea::placeholder {
+    color: rgba(255, 255, 255, 0.573);
+}
+
+.displayflex .container .left button {
+    background-color: #7f279c;
+    border: transparent;
+    border-radius: 6px;
+    color: white;
+    font-size: 12px;
+    margin-left: 10px;
+    padding: 9px;
+    width: 120px;
+}
+
+.displayflex .container .left button:hover {
+    background-color: #780b9c;
+    outline: none;
+    transition: .8s;
+    cursor: pointer;
+
+    width: 130px;
+    padding: 12px;
+}
+
+.displayflex .container .left button::placeholder {
+    font-weight: bolder;
+}
+
+.displayflex .container img {
+    border-radius: 80%;
+    height: 300px;
+    width: 250px;
 }
