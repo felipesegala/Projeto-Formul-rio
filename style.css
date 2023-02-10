@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.container .background {
+    background: linear-gradient(135deg, #7f279c, #2e279d 100%);
+    padding: 15px;
+    height: 400px;
+    width: 300px;
+}
+
+.container .background form {
+    
+}
+
+.container .background form input {
+    width: 250px;
+    margin: 20px;
+}
+
+.container .background form input[type="text"] {
+    
+}
+
+.container .background form input[type="email"]{
+
+}
+
+.container .background form textarea {
+    margin: 10px 30px;
+}
+
+button {
+    justify-content: center;
+    height: 20px;
+    margin: 10px 50px;
+    width: 200px;
+}
